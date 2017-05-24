@@ -2,7 +2,7 @@ from Crypto.Cipher import AES
 from Crypto.Util import Counter
 
 
-
+#XOR two strings together
 def strxor(a,b):
 	if len(a) > len(b):
 		return "".join([chr(ord(x) ^ ord(y)) for (x,y) in zip(a[:len(b)], b )])
