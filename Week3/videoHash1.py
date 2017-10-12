@@ -2,7 +2,7 @@ from Crypto.Hash import SHA256
 import os
 
 blockSize = 1024
-path = r'C:\Users\mitch\Dropbox\Code\Other\Coursera\Cryptography\Week3\6.2.birthday.mp4'
+path = r'C:\FAKEPATH\Week3\6.2.birthday.mp4'
 
 file = open(path,'rb')
 fileSize = os.path.getsize(path)
